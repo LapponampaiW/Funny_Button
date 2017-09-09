@@ -29,6 +29,7 @@ class ViewController: UIViewController {
         
         nameString = nameTextField.text! //gettext   android = nameTextField.getText.toString
         print("You type ==> \(nameString)")
+        UIlabel.text = nameString
         
         
         
