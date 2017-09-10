@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1857A6141F651011002AFEE9 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1857A6131F651011002AFEE9 /* TimerViewController.swift */; };
+		1857A6181F6513C7002AFEE9 /* ic_home_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1857A6151F6513C7002AFEE9 /* ic_home_2x.png */; };
+		1857A6191F6513C7002AFEE9 /* ic_home_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1857A6161F6513C7002AFEE9 /* ic_home_3x.png */; };
+		1857A61A1F6513C7002AFEE9 /* ic_home.png in Resources */ = {isa = PBXBuildFile; fileRef = 1857A6171F6513C7002AFEE9 /* ic_home.png */; };
 		186BE5E51F64FA9B00E52347 /* MyClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186BE5E41F64FA9B00E52347 /* MyClass.swift */; };
 		18A998561F64DB050084FC48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A998551F64DB050084FC48 /* AppDelegate.swift */; };
 		18A998581F64DB050084FC48 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A998571F64DB050084FC48 /* ViewController.swift */; };
@@ -20,6 +24,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1857A6131F651011002AFEE9 /* TimerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		1857A6151F6513C7002AFEE9 /* ic_home_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_home_2x.png; sourceTree = "<group>"; };
+		1857A6161F6513C7002AFEE9 /* ic_home_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_home_3x.png; sourceTree = "<group>"; };
+		1857A6171F6513C7002AFEE9 /* ic_home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_home.png; sourceTree = "<group>"; };
 		186BE5E41F64FA9B00E52347 /* MyClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyClass.swift; sourceTree = SOURCE_ROOT; };
 		18A998521F64DB050084FC48 /* Funny Number.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Funny Number.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18A998551F64DB050084FC48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -65,6 +73,9 @@
 			isa = PBXGroup;
 			children = (
 				18A998551F64DB050084FC48 /* AppDelegate.swift */,
+				1857A6151F6513C7002AFEE9 /* ic_home_2x.png */,
+				1857A6161F6513C7002AFEE9 /* ic_home_3x.png */,
+				1857A6171F6513C7002AFEE9 /* ic_home.png */,
 				18A998671F64E0AD0084FC48 /* ic_save_48pt_2x.png */,
 				18A998681F64E0AD0084FC48 /* ic_save_48pt_3x.png */,
 				18A9986D1F64E2790084FC48 /* tord-sollie-865.jpg */,
@@ -75,6 +86,7 @@
 				18A9985E1F64DB060084FC48 /* LaunchScreen.storyboard */,
 				18A998611F64DB060084FC48 /* Info.plist */,
 				186BE5E41F64FA9B00E52347 /* MyClass.swift */,
+				1857A6131F651011002AFEE9 /* TimerViewController.swift */,
 			);
 			path = "Funny Number";
 			sourceTree = "<group>";
@@ -142,8 +154,11 @@
 				18A9986A1F64E0AD0084FC48 /* ic_save_48pt_2x.png in Resources */,
 				18A9986E1F64E2790084FC48 /* tord-sollie-865.jpg in Resources */,
 				18A998601F64DB060084FC48 /* LaunchScreen.storyboard in Resources */,
+				1857A61A1F6513C7002AFEE9 /* ic_home.png in Resources */,
+				1857A6191F6513C7002AFEE9 /* ic_home_3x.png in Resources */,
 				18A9985D1F64DB060084FC48 /* Assets.xcassets in Resources */,
 				18A9986B1F64E0AD0084FC48 /* ic_save_48pt_3x.png in Resources */,
+				1857A6181F6513C7002AFEE9 /* ic_home_2x.png in Resources */,
 				18A9985B1F64DB060084FC48 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -155,6 +170,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1857A6141F651011002AFEE9 /* TimerViewController.swift in Sources */,
 				18A998581F64DB050084FC48 /* ViewController.swift in Sources */,
 				18A998561F64DB050084FC48 /* AppDelegate.swift in Sources */,
 				186BE5E51F64FA9B00E52347 /* MyClass.swift in Sources */,

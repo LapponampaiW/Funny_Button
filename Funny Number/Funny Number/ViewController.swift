@@ -19,6 +19,14 @@ class ViewController: UIViewController {
     @IBOutlet weak var numberLabel: UILabel!
     
     
+    @IBAction func refreshAction(_ sender: Any) {
+        
+        let ballClass = MyClass()
+        numberAInt = ballClass.refreshNumber()
+        numberLabel.text = String(numberAInt)
+        
+        
+    }
     
 
     @IBAction func decreaseButton(_ sender: Any) {

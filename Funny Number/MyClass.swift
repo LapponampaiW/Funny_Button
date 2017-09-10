@@ -15,5 +15,11 @@ class MyClass{
         return result
     }
     
+    func refreshNumber () -> Int {
+        let result = 1
+        return result
+    }
+    
+    
     
 }
