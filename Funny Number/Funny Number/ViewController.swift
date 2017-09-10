@@ -11,7 +11,8 @@ import UIKit
 class ViewController: UIViewController {
     
     
-    var numString = ""
+    //Explicit
+    var numberAInt: Int = 1
     
     
     
@@ -22,9 +23,7 @@ class ViewController: UIViewController {
 
     @IBAction func decreaseButton(_ sender: Any) {
         print("Click decreaseButton")
-        numString = numberLabel.text!
-        var numAInt1 = Int(numString)!
-        var numAInt2 = numAInt1 - 1
+
 
         
     }
@@ -33,8 +32,18 @@ class ViewController: UIViewController {
     
     @IBAction func increassButton(_ sender: Any) {
         print("Click increaseButton")
-        
+        numberAInt = addNumber(intNumber: numberAInt)
+        numberLabel.text = String(numberAInt)
     }
+    
+    
+    //Function Add Number
+    func addNumber(intNumber: Int) -> Int {
+        let result = intNumber + 1
+        
+        return result
+    }
+    
     
     
     
