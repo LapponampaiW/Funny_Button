@@ -15,7 +15,6 @@ class ViewController: UIViewController {
     var numberAInt: Int = 1
     
     
-    
     @IBOutlet weak var numberLabel: UILabel!
     
     
