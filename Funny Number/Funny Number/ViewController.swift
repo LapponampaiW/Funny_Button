@@ -23,7 +23,10 @@ class ViewController: UIViewController {
 
     @IBAction func decreaseButton(_ sender: Any) {
         print("Click decreaseButton")
-
+        
+        let ballClass = MyClass()
+        numberAInt = ballClass.decNumber(intNumber: numberAInt)
+        numberLabel.text = String(numberAInt)
 
         
     }
